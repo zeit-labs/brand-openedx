@@ -1,2 +1,39 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
+
+
+body {
+  background-image: url("./images/bg-home.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.btn-brand {
+  color: #000000;
+  background-color: unset;
+  box-shadow: none;
+  border: 1px solid;
+  font-weight: 800;
+  border-radius: 40px;
+}
+
+.btn-inverse-primary {
+  font-weight: 600;
+  padding: 10px !important;
+  background: transparent;
+}
+
+.btn.pgn__avatar-button-avatar {
+  background: transparent;
+  border: unset;
+  font-weight: 600;
+}
+
+#root footer {
+  background: transparent;
+}
+
+.profile-page-bg-banner {
+  background: transparent !important;
+}
