@@ -1,6 +1,6 @@
 {
   "name": "brand-openedx-zeit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The default branding and SASS theme package containing for Open edX applications. This package is designed to be copied and customized.",
   "repository": {
     "type": "git",
