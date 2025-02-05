@@ -1,0 +1,27 @@
+[dir="ltr"] .extra-large-screen-top-stripe {
+  background: unset;
+  display: none;
+}
+
+.large-screen-svg-primary {
+  display: none;
+}
+
+.col-md-9.bg-primary-400 {
+  max-width: 100% !important;
+  flex: unset;
+}
+
+.col-md-3.bg-white.p-0 {
+  display: none;
+}
+
+body {
+  background: #edf3ffde;
+}
+
+h1.display-2.text-white.mw-xs.ml-6 {
+  font-size: 3rem;
+  line-height: 1.1;
+  margin: unset !important;
+}
