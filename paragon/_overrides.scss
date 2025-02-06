@@ -22,6 +22,9 @@ body {
   font-weight: 600;
   padding: 10px !important;
   background: transparent;
+  border-radius: 0 !important;
+  border: unset !important;
+  border-bottom: unset !important;
 }
 
 .btn.pgn__avatar-button-avatar {
@@ -37,3 +40,25 @@ body {
 .profile-page-bg-banner {
   background: transparent !important;
 }
+
+//changes for learner dashboard
+.learner-variant-header a.btn {
+  position:relative;
+  background-color: unset !important;
+  padding: 20px !important;
+  border-bottom: unset !important;
+  border: unset !important;
+}
+
+.learner-variant-header a.btn:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-bottom: 2px solid black;
+  transition:0.4s;
+  opacity:0;
+}
+
+.learner-variant-header a.btn:hover:after {opacity:1;background:unset;}
