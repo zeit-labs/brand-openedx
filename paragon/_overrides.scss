@@ -65,3 +65,13 @@ body {
 }
 
 .learner-variant-header a.btn:hover:after {opacity:1;background:unset;}
+
+.btn-light.focus::before, .btn-light:focus::before, .btn-dark.focus::before, .btn-dark:focus::before {
+  border:unset;
+  outline: 2px solid #093055 !important;
+  inset: 0;
+}
+
+.btn-light:not(:disabled):not(.disabled):active, .btn-light:not(:disabled):not(.disabled).active, .show > .btn-light.dropdown-toggle {
+  background-color: unset;
+}
