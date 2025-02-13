@@ -27,20 +27,28 @@
 }
 
 .page__account-settings {max-width: 1170px;margin: 0 auto;padding: unset;}
-.page__account-settings > div > .row {display:flex;gap: 50px;flex-wrap: nowrap;margin: unset;}
 
-.page__account-settings > div > .row > * {
-  padding: 0 !important;
-  flex: unset;
-  max-width: unset;
-  width: auto;
+.page__account-settings > div > .row {display:flex;gap: 50px;margin: unset;}
+
+
+
+
+
+
+@media (min-width: 768px) {
+  .page__account-settings > div > .row > * {
+    padding: 0 !important;
+    flex: unset;
+    max-width: unset;
+    width: auto;
+  }
+
+  .page__account-settings > div > .row > *:last-child {
+    width: calc(100% - 240px - 50px);
+    max-width: 100%;
+  }
 }
 
-.page__account-settings > div > .row > *:first-child {
-  width: 240px;
-  max-width: 100%;
-  flex-shrink: 0;
-}
 
 .account-section .section-heading {
   font-size: clamp(14px,4vw, 18px);
@@ -142,3 +150,12 @@ a.pgn__hyperlink.default-link.standalone-link {
   font-size: 14px;
 }
 
+
+@media (max-width: 767px) {
+  .page__account-settings {
+    padding: 20px;
+  }
+  .page__account-settings > div > .row {
+    flex-direction: column;
+  }
+}
