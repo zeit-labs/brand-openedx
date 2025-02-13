@@ -2,6 +2,10 @@
   background-color: #D1E9FF;
 }
 
+.page__account-settings .font-weight-bold {
+  font-weight: 500 !important;
+}
+
 .page__account-settings .jump-nav {
   padding: unset !important;
 }
@@ -156,5 +160,8 @@ a.pgn__hyperlink.default-link.standalone-link {
   }
   .page__account-settings > div > .row {
     flex-direction: column;
+  }
+  .page__account-settings > div > .row > * {
+    padding: 0;
   }
 }
