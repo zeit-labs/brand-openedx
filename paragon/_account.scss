@@ -1,3 +1,114 @@
-.page__account-settings h1 {
-  color: rgb(0, 0, 0) !important;
+.page__account-settings :is(li.font-weight-bold, .jump-nav li:hover a){
+  background-color: #D1E9FF;
+}
+
+.page__account-settings .jump-nav {
+  padding: unset !important;!i;!;
+}
+
+.account-section {
+  padding: unset !important;!i;!;
+}
+
+.page__account-settings .jump-nav li a {
+  text-decoration: unset;
+  color: black;
+  font-weight: 100;
+  display: block;
+  font-size: 14px;
+  padding: 8px 12px;
+  transition: 0.4s;
+  line-height: 20px;
+}
+
+.page__account-settings .jump-nav li {
+  border-radius:6px;
+  overflow: hidden;
+}
+
+.page__account-settings {max-width: 1170px;margin: 0 auto;padding: unset;}
+.page__account-settings > div > .row {display:flex;gap: 50px;flex-wrap: nowrap;margin: unset;}
+
+.page__account-settings > div > .row > * {
+  padding: 0 !important;
+  flex: unset;
+  max-width: unset;
+  width: auto;!;!i;!;
+}
+
+.page__account-settings > div > .row > *:first-child {
+  width: 240px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+
+.account-section .section-heading {
+  font-size: clamp(14px,4vw, 18px);
+  margin-bottom: 14px !important;!i;!;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+
+
+
+
+.account-section > p {
+  font-size: clamp(12px,4vw,14px);
+  color: #515661;
+  margin-bottom: 15px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.pgn-transition-replace-group {
+  border: solid #d1e9ff;!;!i;!io;!i;!;
+  padding: 20px;
+  border-radius: 8px;
+  border-width: 1px 1px 1px 8px;
+}
+
+.account-section > .pgn-transition-replace-group + * {
+  margin-top: 15px;
+}
+
+.page__account-settings h6 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.page__account-settings p.text-truncate {
+  line-height: 20px;
+  font-size: 16px;
+  color: #515661;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.page__account-settings p.small.text-muted {
+  padding: 10px 15px;
+  background-color: #d1e9ff;
+  border-radius: 8px;
+  margin: unset !important;!i;!;
+  font-size: 14px;
+  line-height: 20px;
+  color: #111827 !important;!i;!;
+}
+
+.page__account-settings h6 + .button {}
+
+.page__account-settings .btn-link {
+  margin-inline-start: auto !important;!i;!;
+  text-decoration: unset;
+  color: white;
+  background-color: #2E90FA;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  padding: 8px 14px;
+}
+
+.page__account-settings .btn-link svg {
+  display: none;
 }
