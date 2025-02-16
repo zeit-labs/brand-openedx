@@ -180,7 +180,7 @@ a.btn.btn-primary, button.btn.btn-primary {
   display: none;
 }
 
-button.btn.btn-outline-primary {
+.btn.btn-outline-primary, .btn.btn-outline-primary {
   color: #374151;
   background-color: transparent;
   border-color: #D1D5DB;
@@ -189,5 +189,5 @@ button.btn.btn-outline-primary {
   transition: 0.4s;
 }
 
-button.btn.btn-outline-primary:hover, button.btn.btn-outline-primary:focus, button.btn.btn-outline-primary:active {opacity: 0.8}
+.btn.btn-outline-primary:hover, .btn.btn-outline-primary:focus, .btn.btn-outline-primary:active {opacity: 0.8}
 
