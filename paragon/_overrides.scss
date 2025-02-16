@@ -131,12 +131,12 @@ body {
   font-size: 16px;
 }
 
-a.btn.btn-primary {
-  background-color: #2E90FA;
-  font-size: 16px;
+a.btn.btn-primary, button.btn.btn-primary {
+  background-color: #2E90FA !important;
+  font-size: 16px !important;
   line-height: 20px;
   padding: 8px 14px !important;
-  border: 3px solid transparent;
+  border: 3px solid transparent !important;
   transition: 0.4s;
 }
 
