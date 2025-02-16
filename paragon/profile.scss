@@ -1,0 +1,50 @@
+.profile-page {
+  .profile-page-bg-banner {
+    background: #F5FAFF !important;
+  }
+
+  .container-fluid {
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+
+  .edit-section-header {
+    font-size: 18px;
+  }
+
+  .edit-section-header + p {
+    font-size: 16px;
+  }
+
+  p.h5 {
+    font-size: 16px;
+  }
+
+  small.form-text.text-muted {
+    font-size: 14px;
+  }
+
+  .btn.btn-primary {
+    background: #2e90fa;
+    border: unset;
+    padding: 8px 14px !important;
+  }
+
+  .form-group:has(.btn-primary) {
+    display: flex;
+  }
+
+  p.lead {
+    font-size: 14px;
+  }
+
+  label[for^="social"] {
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+}
+
+
+
+
+

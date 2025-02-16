@@ -40,10 +40,6 @@ body {
   background: transparent;
 }
 
-.profile-page-bg-banner {
-  background: transparent !important;
-}
-
 //changes for learner dashboard
 .learner-variant-header a.btn {
   position:relative;
@@ -74,4 +70,21 @@ body {
 
 .btn-light:not(:disabled):not(.disabled):active, .btn-light:not(:disabled):not(.disabled).active, .show > .btn-light.dropdown-toggle {
   background-color: unset;
+}
+
+:is(.profile-page, .page__account-settings) .btn-link {
+  margin-inline-start: auto !important;
+  text-decoration: unset;
+  color: white;
+  background-color: #2E90FA;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  transition: opacity 0.4s;
+  padding: 8px 14px !important;
+}
+
+:is(.profile-page, .page__account-settings) .btn-link:hover {opacity: 0.8;}
+:is(.profile-page, .page__account-settings) .btn-link svg {
+  display: none;
 }
