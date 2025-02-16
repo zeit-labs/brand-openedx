@@ -43,16 +43,16 @@
     margin-bottom: 4px;
   }
 
-  .profile-page .profile-page-bg-banner {
+  .profile-page-bg-banner {
     display: none;
   }
 
-  .profile-page .profile-avatar-menu-container:hover {
+  .profile-avatar-menu-container:hover {
     background: rgba(0, 0, 0, 0.65);
   }
 
 
-  .profile-page .profile-avatar-menu-container .dropdown .btn {
+  .profile-avatar-menu-container .dropdown .btn {
     opacity: 0;
     color: white;
     transition:0.4s;
@@ -60,11 +60,11 @@
     font-size: 16px;
   }
 
-  .profile-page .profile-avatar-menu-container:hover .dropdown .btn {
+  .profile-avatar-menu-container:hover .dropdown .btn {
     opacity: 1;
   }
 
-  .profile-page .profile-avatar-menu-container {
+  .profile-avatar-menu-container {
     background: unset;
     transition:0.4s;
   }
