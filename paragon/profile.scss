@@ -42,6 +42,43 @@
     font-size: 14px;
     margin-bottom: 4px;
   }
+
+  .profile-page .profile-page-bg-banner {
+    display: none;
+  }
+
+  .profile-page .profile-avatar-menu-container:hover {
+    background: rgba(0, 0, 0, 0.65);
+  }
+
+
+  .profile-page .profile-avatar-menu-container .dropdown .btn {
+    opacity: 0;
+    color: white;
+    transition:0.4s;
+    height: 100%;
+    font-size: 16px;
+  }
+
+  .profile-page .profile-avatar-menu-container:hover .dropdown .btn {
+    opacity: 1;
+  }
+
+  .profile-page .profile-avatar-menu-container {
+    background: unset;
+    transition:0.4s;
+  }
+
+  .pgn__dropdown.pgn__dropdown-light.dropdown {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pgn__dropdown.pgn__dropdown-light.dropdown {
+    margin-bottom: 0;
+  }
 }
 
 
