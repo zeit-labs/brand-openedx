@@ -72,6 +72,91 @@ body {
   background-color: unset;
 }
 
+.btn-brand.disabled, .btn-brand:disabled {
+  background: #2E90FA;
+  font-weight: 400;
+  border: unset;
+  border-radius: 6px;
+}
+
+.masquerade-bar .masquerade-form-label {
+  color: #111827;
+}
+
+#course-filter-controls button.btn.btn-outline-primary {
+  border-color: #D1D5DB;
+  color: #374151;
+}
+
+.pgn__card .pgn__card-header .pgn__card-header-content {
+  margin-top: 0;
+  align-self: center;
+}
+
+.pgn__card .pgn__card-header .pgn__card-header-title-md > h3 {
+  margin: 0;
+}
+
+.pgn__card .pgn__card-header .pgn__card-header-actions {
+  margin: 0;
+}
+
+.pgn__card .pgn__card-header {
+  padding: 0;
+  margin-bottom: 0px;
+  padding-top: 10px;
+}
+
+.pgn__card .pgn__card-section {
+  padding: 0;
+}
+
+.pgn__card .pgn__card-footer.horizontal {
+  padding: 0;
+  margin-top: auto;
+  padding-bottom: 20px;
+}
+
+.pgn__card-body {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pgn__action-row button.btn.btn-outline-primary {
+  color: #374151;
+  background-color: transparent;
+  border-color: #D1D5DB;
+  padding: 8px 14px !important;
+  font-size: 16px;
+}
+
+a.btn.btn-primary {
+  background-color: #2E90FA;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 8px 14px !important;
+  border: 3px solid transparent;
+}
+
+.pgn__card-section > span {
+  color: #515661;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.btn-icon.btn-icon-primary.hover, .btn-icon.btn-icon-primary:hover, .btn-icon.btn-icon-primary.active, .btn-icon.btn-icon-primary:active {
+  background: #2e90fa;
+  opacity: 0.9;
+}
+
+.course-card .course-card-banners > .alert:last-of-type {
+  padding: 10px;
+}
+
+
+
+//general changes
 :is(.profile-page, .page__account-settings) .btn-link {
   margin-inline-start: auto !important;
   text-decoration: unset;
