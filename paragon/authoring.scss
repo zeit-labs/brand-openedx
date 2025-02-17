@@ -53,3 +53,29 @@ button.btn.btn-outline-primary.mt-4 {
 .pgn__bubble.pgn__bubble-primary {
   background-color: var(--btn-primary) !important;
 }
+
+.courses-tab-container .pgn__hyperlink.default-link.standalone-link.card-item-title {
+  margin: unset;
+}
+
+.schedule-and-details{
+  .pgn__card.card {
+    padding: 20px;
+    gap: 10px;
+  }
+  .pgn__card-section.px-3.py-1 {
+    align-self: start;
+    color: #006DAA;
+  }
+  .pgn__hyperlink.default-link.standalone-link.lead.info-500.small.text-decoration-none {
+    color: #006DAA;
+  }
+
+  .pgn__mailtolink {
+    margin: unset !important;
+  }
+  .pgn__card.card > * {
+    padding: unset !important;
+  }
+}
+
