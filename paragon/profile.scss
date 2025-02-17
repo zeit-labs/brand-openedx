@@ -24,11 +24,11 @@
     font-size: 14px;
   }
 
-  .btn.btn-primary {
-    background: #2e90fa;
-    border: unset;
-    padding: 8px 14px !important;
-  }
+  //.btn.btn-primary {
+  //  background: #2e90fa;
+  //  border: unset;
+  //  padding: 8px 14px !important;
+  //}
 
   .form-group:has(.btn-primary) {
     display: flex;
@@ -56,7 +56,6 @@
     opacity: 0;
     color: white;
     transition:0.4s;
-    height: 100%;
     font-size: 16px;
   }
 
