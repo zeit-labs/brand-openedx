@@ -8,13 +8,6 @@
   --btn-outlined-primary--text: #374151;
 }
 
-body {
-  //background-image: url("https://framerusercontent.com/images/wSzvTT1ZyGcTOhxUVQOg97dmudM.png?scale-down-to=4096");
-  //background-repeat: no-repeat;
-  //background-attachment: fixed;
-  //background-size: cover;
-}
-
 .btn-brand {
   color: #000000;
   background-color: unset;
@@ -126,22 +119,6 @@ body {
   flex-direction: column;
 }
 
-//.pgn__action-row button.btn.btn-outline-primary, button.btn.btn-outline-primary {
-//  color: #374151;
-//  background-color: transparent;
-//  border-color: #D1D5DB;
-//  padding: 8px 14px !important;
-//  font-size: 16px;
-//}
-
-//a.btn.btn-primary, button.btn.btn-primary {
-//  background-color: #2E90FA !important;
-//  font-size: 16px !important;
-//  line-height: 20px;
-//  padding: 8px 14px !important;
-//  border: 3px solid transparent !important;
-//  transition: 0.4s;
-//}
 
 .pgn__card-section > span {
   color: #515661;
@@ -197,10 +174,6 @@ body {
 .btn-icon.btn-icon-secondary.hover, .btn-icon.btn-icon-secondary:hover, .btn-icon.btn-icon-secondary.active, .btn-icon.btn-icon-secondary:active {background-color: #2E90FA;}
 
 
-:root {
-
-}
-
 .btn.btn-primary {
   background-color: var(--btn-primary) !important;
   font-size: 16px !important;
@@ -231,3 +204,10 @@ body {
   opacity: 1 !important;
   border-color:  var(--btn-primary);
 }
+
+@import "account";
+@import "types";
+@import "authn";
+@import "authoring";
+@import "brand";
+@import "profile";
