@@ -121,3 +121,13 @@ nav.pgn__tabs.nav.nav-tabs {
   border: 1px solid #000;
   opacity:0.8;
 }
+
+.btn-brand:active, .btn-brand:focus{
+  background-color: var(--btn-primary) !important;
+  border: unset;
+  opacity: 0.8;
+}
+
+.btn-brand.focus:active::before, .btn-brand.focus.active::before, .btn-brand:focus:active::before, .btn-brand:focus.active::before {
+  border: unset;
+}
