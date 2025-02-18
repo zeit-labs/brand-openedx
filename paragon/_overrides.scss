@@ -7,6 +7,19 @@
   --btn-outlined-primary: transparent;
   --btn-outlined-primary--text: #374151;
 }
+#root header .logo {
+  height: auto;
+}
+
+img.logo {
+  position: static !important;
+  margin: 0 0 10px !important;
+  width: 150px;
+  max-width: 100%;
+}
+
+
+
 
 .btn-brand {
   color: #000000;
@@ -68,12 +81,37 @@
   background-color: unset;
 }
 
-//.btn-brand.disabled, .btn-brand:disabled {
-//  background: #2E90FA;
-//  font-weight: 400;
-//  border: unset;
-//  border-radius: 6px;
-//}
+
+.btn-brand.focus::before, .btn-brand:focus::before {
+  content: unset;
+}
+.btn-brand:not(:disabled):not(.disabled):active, .btn-brand:not(:disabled):not(.disabled).active, .show > .btn-brand.dropdown-toggle {
+  color: #000;
+  background-color: transparent;
+  border: 1px solid #000;
+  opacity:0.8;
+}
+.btn-brand:active, .btn-brand:focus{
+  background-color: var(--btn-primary) !important;
+  border: unset;
+  opacity: 0.8;
+}
+
+.btn-brand.focus:active::before, .btn-brand.focus.active::before, .btn-brand:focus:active::before, .btn-brand:focus.active::before {
+  border: unset;
+}
+
+.btn-brand {
+  background-color: var(--btn-primary) !important;
+  border: unset;
+  color:white;
+}
+
+.btn-brand.disabled, .btn-brand:disabled {
+  opacity:0.8;
+  border: unset;
+}
+
 
 .masquerade-bar .masquerade-form-label {
   color: #111827;
@@ -203,6 +241,19 @@
 .btn-outline-primary.focus:active::before, .btn-outline-primary.focus.active::before, .btn-outline-primary:focus:active::before, .btn-outline-primary:focus.active::before {
   opacity: 1 !important;
   border-color:  var(--btn-primary);
+}
+
+
+
+
+@media (max-width: 767px) {
+  #dashboard-container .pgn__card .pgn__card-wrapper-image-cap.horizontal {
+    max-width: 100%;
+  }
+
+  #dashboard-container .course-card .card .pgn__card-footer .pgn__action-row {
+    flex-wrap: wrap;
+  }
 }
 
 @import "account";

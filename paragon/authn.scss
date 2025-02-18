@@ -30,11 +30,7 @@ a.pgn__hyperlink.default-link.standalone-link {
   margin: 0 auto;
 }
 
-img.logo {
-  position: static !important;
-  margin: 0 0 10px !important;
-  width: 200px;
-}
+
 
 #root .layout h1 {
   font-size: 2rem;
@@ -104,30 +100,3 @@ nav.pgn__tabs.nav.nav-tabs {
   border-bottom: unset;
 }
 
-.btn-brand:hover {
-  color: unset;
-  background-color: #f7f7f7;
-  border-color: unset;
-}
-
-
-.btn-brand.focus::before, .btn-brand:focus::before {
-  content: unset;
-}
-
-.btn-brand:not(:disabled):not(.disabled):active, .btn-brand:not(:disabled):not(.disabled).active, .show > .btn-brand.dropdown-toggle {
-  color: #000;
-  background-color: transparent;
-  border: 1px solid #000;
-  opacity:0.8;
-}
-
-.btn-brand:active, .btn-brand:focus{
-  background-color: var(--btn-primary) !important;
-  border: unset;
-  opacity: 0.8;
-}
-
-.btn-brand.focus:active::before, .btn-brand.focus.active::before, .btn-brand:focus:active::before, .btn-brand:focus.active::before {
-  border: unset;
-}
