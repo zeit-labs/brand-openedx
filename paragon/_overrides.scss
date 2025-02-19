@@ -20,6 +20,10 @@ img.logo {
 
 
 
+.site-header-desktop .main-nav .nav-link:hover, .site-header-desktop .main-nav .nav-link:focus, .site-header-desktop .main-nav .nav-link.active, .site-header-desktop .main-nav .expanded .nav-link {
+  background: var(--btn-primary);
+  color: #FFFFFF;
+}
 
 .btn-brand {
   color: #000000;
