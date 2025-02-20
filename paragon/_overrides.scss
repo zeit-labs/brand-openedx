@@ -12,10 +12,13 @@ img.logo {
   margin: 0 0 10px !important;
   width: 150px !important;
   max-width: 100%;
-  zoom: 0.6;
 }
 
 #root header .logo img {
+  width: 150px !important;
+}
+
+header img.logo , header a.logo > img {
   width: 150px !important;
 }
 
@@ -65,4 +68,9 @@ footer#footer.tutor-container ul.logo-list {
 
 [data-testid=instructor-toolbar] .bg-primary {
   background-color: #070c14 !important;
+}
+
+.courses-listing-item {
+  opacity:1 !important; 
+  transform:unset !important;
 }
