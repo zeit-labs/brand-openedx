@@ -79,12 +79,6 @@
   border-width: 1px 1px 1px 8px;
 }
 
-.pgn-transition-replace-group:has(> *:empty) {
-  border: unset;
-  height:0;
-  padding:0;
-}
-
 .account-section > .pgn-transition-replace-group + * {
   margin-top: 15px;
 }

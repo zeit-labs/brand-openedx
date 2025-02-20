@@ -8,7 +8,7 @@
   --btn-outlined-primary--text: #374151;
 }
 #root header .logo {
-  height: auto;
+  height: auto !important;
 }
 
 img.logo {
@@ -41,6 +41,7 @@ img.logo {
   border-radius: 0 !important;
   border: unset !important;
   border-bottom: unset !important;
+  color: var(--btn-outlined-primary--text);
 }
 
 .btn.pgn__avatar-button-avatar {
