@@ -12,4 +12,53 @@ img.logo {
   margin: 0 0 10px !important;
   width: 150px;
   max-width: 100%;
+  zoom: 0.6;
+}
+
+
+footer#footer.tutor-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  flex-wrap: wrap;
+  border-top: 1px solid #E8E6E4;
+  background:#070c14;
+  color: #ebebeb;
+  font-size: 13px;
+}
+
+footer#footer.tutor-container ul.logo-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style-type: none;
+}
+
+.powered-area {
+  opacity: 0;
+}
+
+.course-title-lockup {
+  gap: 30px;
+  align-items: center;
+  margin-inline-end: 20px;
+}
+
+.course-title-lockup .nav-course:nth-child(2) {
+  margin-inline-start: auto;
+}
+
+.course-title-lockup .nav-course a {
+  color: #454545;
+}
+
+.course-info-header > span.org {
+  opacity: 0.8;
+  font-size: 15px;
+  margin-top: 4px;
+}
+
+[data-testid=instructor-toolbar] .bg-primary {
+  background-color: #070c14 !important;
 }
