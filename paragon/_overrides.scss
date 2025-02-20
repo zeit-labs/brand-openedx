@@ -10,9 +10,13 @@
 img.logo {
   position: static !important;
   margin: 0 0 10px !important;
-  width: 150px;
+  width: 150px !important;
   max-width: 100%;
   zoom: 0.6;
+}
+
+#root header .logo img {
+  width: 150px !important;
 }
 
 
