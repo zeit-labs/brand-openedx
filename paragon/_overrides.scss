@@ -23,6 +23,16 @@ header img.logo , header a.logo > img {
 }
 
 
+nav.wrapper-preview-menu {
+  background-color: #14161e;
+
+  .btn-primary, .btn-brand {
+    background: #E8E6E4;
+    color: #14161e;
+  }
+}
+
+
 footer#footer.tutor-container {
   display: flex;
   align-items: center;
