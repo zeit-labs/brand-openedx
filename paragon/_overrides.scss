@@ -59,6 +59,48 @@ body:has(.profile-page) a.logo img, body:has(.page__account-settings) a.logo img
   background: transparent;
 }
 
+footer#footer.tutor-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  flex-wrap: wrap;
+  border-top: 1px solid #e8e6e4;
+  background:#070c14;
+  color:white;
+}
+
+footer#footer.tutor-container ul.logo-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style-type: none;
+}
+
+.powered-area {
+  opacity: 0;
+}
+
+.course-title-lockup {
+  gap: 30px;
+  align-items: center;
+  margin-inline-end: 20px;
+}
+
+.course-title-lockup .nav-course:nth-child(2) {
+  margin-inline-start: auto;
+}
+
+.course-title-lockup .nav-course a {
+  color: #454545;
+}
+
+.course-info-header > span.org {
+  opacity: 0.6;
+  font-size: 15px;
+  margin-top: 4px;
+}
+
 //changes for learner dashboard
 .learner-variant-header a.btn {
   position:relative;
