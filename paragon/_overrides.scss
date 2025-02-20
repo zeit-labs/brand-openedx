@@ -25,6 +25,11 @@ img.logo {
   color: #FFFFFF;
 }
 
+body:has(.profile-page) a.logo img, body:has(.page__account-settings) a.logo img, header a.logo img  {
+  width: 150px;
+  max-width: 100%;
+}
+
 .btn-brand {
   color: #000000;
   background-color: unset;

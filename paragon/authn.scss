@@ -100,3 +100,6 @@ nav.pgn__tabs.nav.nav-tabs {
   border-bottom: unset;
 }
 
+:is(form#sign-in-form, form#registration-form) .pgn-transition-replace-group {
+  display: none;
+}
