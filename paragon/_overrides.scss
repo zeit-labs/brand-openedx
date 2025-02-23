@@ -28,6 +28,7 @@ img.logo {
 body:has(.profile-page) a.logo img, body:has(.page__account-settings) a.logo img, header a.logo img  {
   width: 150px;
   max-width: 100%;
+  height: auto !important;
 }
 
 .btn-brand {
@@ -314,3 +315,5 @@ footer#footer.tutor-container ul.logo-list {
 @import "authoring";
 @import "brand";
 @import "profile";
+@import "learner-dashboard";
+@import "learner";

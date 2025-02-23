@@ -7,6 +7,7 @@
   .layout {
     flex-direction: column;
     padding: 20px;
+    min-height: 100vh;
   }
 
   .layout > *:first-child {
@@ -32,7 +33,7 @@
     margin: 0 auto;
   }
 
-  #root .layout h1 {
+  .layout h1 {
     font-size: 2rem;
     color: black !important;
     margin-left: unset !important;
@@ -103,5 +104,21 @@
   :is(form#sign-in-form, form#registration-form) .pgn-transition-replace-group {
     display: none;
   }
+
+  //mobile
+  @media (max-width: 767px) {
+
+    .mfe-authn {
+      .main-content, .welcome-page-content {
+        min-width:auto !important;
+      }
+
+      .layout .content {
+        width: 100%;
+      }
+    }
+
+  }
+
 
 }

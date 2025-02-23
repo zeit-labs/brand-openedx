@@ -1,0 +1,33 @@
+.mfe-learner-dashboard {
+
+  @media (max-width: 767px) {
+    .learner-variant-header .btn-icon.btn-icon-inverse-primary-active + a {
+      margin-left: unset !important;
+      margin-top: unset !important;
+      margin-inline-start: auto !important;
+      margin-inline-end: unset !important;
+      padding-inline-end: 20px;
+    }
+
+    .learner-variant-header {
+      padding-inline-start: 6px;
+    }
+
+    .learner-variant-header .btn-icon.btn-icon-inverse-primary-active + a>img {
+      margin-bottom: 0 !important;
+      padding-block: 8px !important;
+    }
+
+
+
+    .course-card .card .pgn__card-footer .pgn__action-row {
+      align-self: stretch;
+    }
+
+    .course-card .card .pgn__card-footer.vertical {
+      padding: 0;
+      margin-bottom: 10px;
+    }
+  }
+
+}

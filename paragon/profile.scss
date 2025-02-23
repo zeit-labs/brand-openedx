@@ -78,6 +78,13 @@
   .pgn__dropdown.pgn__dropdown-light.dropdown {
     margin-bottom: 0;
   }
+
+  .pgn-transition-replace-group:not(:empty) {
+    border: solid #d1e9ff;
+    padding: 20px;
+    border-radius: 8px;
+    border-width: 1px 1px 1px 8px;
+  }
 }
 
 
