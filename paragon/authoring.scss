@@ -1,5 +1,16 @@
 .mfe-course-authoring {
 
+  .studio-header {height: auto}
+
+  header.pgn__action-row > * > * {
+    gap: 20px;
+    align-items: center;
+  }
+
+  header.pgn__action-row > * > * > *:has(.logo) {
+    flex-shrink: 0;
+  }
+
   .card-item.pgn__card.pgn__card-light.card {
     border: solid #d1e9ff;
     padding: 20px;
@@ -24,19 +35,15 @@
   }
 
 
-  //.pt-4 > div {
-  //  background-color: #F5FAFF !important;
-  //  border: 1px solid #D1E9FF;
-  //  box-shadow: unset !important;
-  //}
-  .pt-4 > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) {
+  .section-card__subsections > div {
     border: solid #d1e9ff !important;
     padding: 20px !important;
     border-radius: 8px !important;
-    border-width: 1px 1px 1px 8px !important;
     box-shadow: unset !important;
     background-color: white !important;
+    border-width: 1px 1px 1px 8px !important;
   }
+
   button.btn.btn-outline-primary.mt-4 {
     background-color: white !important;
   }
@@ -79,6 +86,24 @@
     .pgn__card.card > * {
       padding: unset !important;
     }
+  }
+
+  section.course-outline-section > div > div.row:has(.section-card) {
+    border: solid #d1e9ff !important;
+    padding: 20px !important;
+    border-radius: 8px !important;
+    box-shadow: unset !important;
+    background-color: white !important;
+    border-width: 1px 1px 1px 8px !important;
+  }
+
+  .processing-notification.is-show {
+    background: var(--btn-primary);
+    color: white;
+  }
+
+  .processing-notification .processing-notification-title {
+    color: white !important;
   }
 }
 
