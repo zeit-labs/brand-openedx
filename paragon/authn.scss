@@ -6,6 +6,7 @@
 
   .layout {
     flex-direction: column;
+    justify-content: center;
     padding: 20px;
     min-height: 100vh;
   }
@@ -104,6 +105,8 @@
   :is(form#sign-in-form, form#registration-form) .pgn-transition-replace-group {
     display: none;
   }
+
+
 
   //mobile
   @media (max-width: 767px) {
