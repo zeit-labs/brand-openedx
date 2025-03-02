@@ -136,7 +136,7 @@ footer#footer.tutor-container ul.logo-list {
 
 
 .btn-brand.focus::before, .btn-brand:focus::before {
-  content: unset;
+  content: unset !important;
 }
 .btn-brand:not(:disabled):not(.disabled):active, .btn-brand:not(:disabled):not(.disabled).active, .show > .btn-brand.dropdown-toggle {
   color: #000;
