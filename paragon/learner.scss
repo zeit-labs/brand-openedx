@@ -1,0 +1,43 @@
+.mfe-learning {
+  .bg-primary {
+    background-color: var(--btn-primary) !important;
+  }
+
+  .nav-underline-tabs .nav-link:hover, .nav-underline-tabs .nav-link:focus, .nav-underline-tabs .nav-link.active {
+    color: var(--btn-outlined-primary--text);
+    border-bottom-color: var(--btn-outlined-primary--text);
+  }
+
+  .text-primary {
+    color: var(--btn-outlined-primary--text) !important;
+  }
+
+  .bg-primary-500 {
+    background-color: var(--btn-primary) !important;
+  }
+
+  #minimum-grade-tooltip .arrow::after {
+    border-bottom-color: var(--btn-primary);
+  }
+
+  .grade-bar .grade-bar--passing {
+    fill: var(--btn-primary);
+  }
+
+  .proctoring-wrapper span.tip .add {
+    border: unset;
+    box-shadow: unset !important;
+    background-color: var(--b);
+    background-image: unset !important;
+    text-shadow: unset !important;
+    font-family: var(--font-family-base) !important;
+    font-weight: 400;
+    color: white;
+    font-size: 14px;
+  }
+
+  .btn-brand {
+    border: unset !important;
+    outline: unset !important;
+  }
+}

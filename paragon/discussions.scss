@@ -1,0 +1,16 @@
+#root {
+  .mfe-discussion {
+    .header-action-bar .navbar .nav-button-group .nav-item .nav-link.active {
+      background: var(--btn-primary) !important;
+    }
+
+    .header-action-bar .navbar .btn.btn-brand {
+      background: var(--btn-primary) !important;
+    }
+
+    a.discussion-post .post-summary-card-selected {
+      border-color: var(--btn-primary) !important;
+    }
+  }
+}
+
