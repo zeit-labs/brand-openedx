@@ -14,10 +14,31 @@
 img.logo {
   position: static !important;
   margin: 0 0 10px !important;
-  width: 150px;
+  width: 150px !important;
   max-width: 100%;
 }
 
+#root header .logo img {
+  width: 150px !important;
+}
+
+header img.logo , header a.logo > img {
+  width: 150px !important;
+}
+
+.courses-listing-item {
+  opacity:1 !important;
+  transform:unset !important;
+}
+
+nav.wrapper-preview-menu {
+  background-color: #14161e;
+
+  .btn-primary, .btn-brand {
+    background: #E8E6E4;
+    color: #14161e;
+  }
+}
 
 
 .site-header-desktop .main-nav .nav-link:hover, .site-header-desktop .main-nav .nav-link:focus, .site-header-desktop .main-nav .nav-link.active, .site-header-desktop .main-nav .expanded .nav-link {
@@ -66,9 +87,10 @@ footer#footer.tutor-container {
   justify-content: space-between;
   padding: 20px;
   flex-wrap: wrap;
-  border-top: 1px solid #e8e6e4;
+  border-top: 1px solid #E8E6E4;
   background:#070c14;
-  color:white;
+  color: #ebebeb;
+  font-size: 13px;
 }
 
 footer#footer.tutor-container ul.logo-list {
@@ -296,6 +318,9 @@ footer#footer.tutor-container ul.logo-list {
   border-color:  var(--btn-primary);
 }
 
+[data-testid=instructor-toolbar] .bg-primary {
+  background-color: #070c14 !important;
+}
 
 
 
