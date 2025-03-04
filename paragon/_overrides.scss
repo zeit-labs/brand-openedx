@@ -273,7 +273,7 @@ footer#footer.tutor-container ul.logo-list {
   display: none;
 }
 
-.btn.btn-outline-primary, .btn.btn-outline-primary {
+.btn.btn-outline-primary, .btn.btn-outline-primary, button.btn.btn-outline-dark {
   color: #374151;
   background-color: transparent;
   border-color: #D1D5DB;
@@ -323,6 +323,20 @@ footer#footer.tutor-container ul.logo-list {
 }
 
 
+button.btn.btn-outline-dark {
+  color: #374151 !important;
+  background-color: transparent;
+  border-color: #D1D5DB;
+  padding: 8px 14px !important;
+  font-size: 16px;
+  outline:unset !important;
+  transition: 0.4s;
+  margin-bottom:20px;
+}
+
+.btn-outline-dark.focus:before, .btn-outline-dark:focus:before {
+  border-color:#000000;
+}
 
 @media (max-width: 767px) {
   #dashboard-container .pgn__card .pgn__card-wrapper-image-cap.horizontal {
