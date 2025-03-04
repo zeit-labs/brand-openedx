@@ -11,6 +11,15 @@
     a.discussion-post .post-summary-card-selected {
       border-color: var(--btn-primary) !important;
     }
+
+    .nav-button-group.nav.nav-pills {
+      gap: 10px;
+    }
+
+    [dir=ltr] .header-action-bar .nav-button-group .nav-item:not(:last-child) .nav-link {
+      border: 1px solid #e9e6e4;
+    }
+
   }
 }
 
