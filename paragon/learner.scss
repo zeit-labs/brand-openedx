@@ -1,7 +1,4 @@
 .mfe-learning {
-  .bg-primary {
-    background-color: var(--btn-primary) !important;
-  }
 
   .nav-underline-tabs .nav-link:hover, .nav-underline-tabs .nav-link:focus, .nav-underline-tabs .nav-link.active {
     color: var(--btn-outlined-primary--text);
@@ -12,9 +9,9 @@
     color: var(--btn-outlined-primary--text) !important;
   }
 
-  .bg-primary-500 {
-    background-color: var(--btn-primary) !important;
-  }
+  //.bg-primary-500 {
+  //  background-color: var(--btn-primary) !important;
+  //}
 
   #minimum-grade-tooltip .arrow::after {
     border-bottom-color: var(--btn-primary);
